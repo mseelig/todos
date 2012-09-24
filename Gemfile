@@ -11,11 +11,12 @@ gem 'high_voltage'
 
 group :development, :test do
   gem 'rspec-rails'
-  gem 'database_cleaner'
 end
 
 group :test do
   gem 'cucumber-rails'
+  gem 'database_cleaner'
+  gem 'factory_girl_rails'
 end
 
 # Gems used only for assets and not required
